@@ -7,7 +7,8 @@ A simple plugin to highlight syntax in PLUMED input/ouput files.
 Using a *vim-plug* plugin manager, it suffices to add a line
 
 ```
-Plug 'edoardob90/vim-plumed'
+Plug 'edoardob90/vim-plumed' # within plugin section
+set syntax=plumed # after plugin section to enable syntax
 ```
 
-to your *vimrc*. Reload it and issue :PlugInstall.
+to your *vimrc*. Reload it and issue __:PlugInstall__.
